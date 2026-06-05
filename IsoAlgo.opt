@@ -1,0 +1,402 @@
+{
+    "AppName": "IsoAlgo",
+    "Version": "1.0.0",
+    "Comments": "Basic Metric IsoAlgo options file.",
+    "DateFormat": 3, 
+    "TextFont": "gbenor.shx",
+    "BigFont": "hztxt.shx",
+    "DwgFrame": "", 
+    "OutputPdf": true, 
+    "ColourDwg": false, 
+    "Splitting": {
+        "IgnoreSplitPoint": false
+    }, 
+    "SheetLayout": {
+        "DwgSize": {
+            "Index": 0,
+            "Height": 420,
+            "Width": 594
+        },
+        "Margin": {
+            "Left": 5.0,
+            "Bottom": 5.0,
+            "Right": 5.0,
+            "Top": 5.0
+        },
+        "ReservedArea": {
+            "DrawingHeight": 8.0,
+            "MaterialHeight": 30.0
+        },
+        "LineThickness": 0.5,
+        "NorthDirection": 0,
+        "FlowArrow": {
+            "Component": 0,
+            "Pipeline": 8
+        }
+    },
+    "Dimensioning": {
+        "Component": {
+            "Type": 0,
+            "Standouts": 11.0
+        },
+        "Overall": {
+            "Type": 0,
+            "Standouts": 16.0
+        },
+        "Support": {
+            "Type": 0,
+            "Standouts": 6.0
+        }, 
+        "FallIndicator": {
+            "Type": 0, 
+            "Limit": 5, 
+            "Accuracy": 1
+        }
+    },
+    "Annotation": {
+        "TextSize": 0, 
+        "SupportName": 0
+    },
+    "MaterialList": {
+        "PlotList": 2,
+        "TextSize": 3.5,
+        "LineSpacing": 1.6,
+        "Overflow": 0,
+        "ListStyle": 0, 
+        "DetailText": {
+            "Description": 1,
+            "DetailText": 0,
+            "MaterialText": 0
+        },
+        "ItemCode": {
+            "Length": 8,
+            "Delimiter": 1
+        }, 
+        "BoltLength": {
+            "Description": false, 
+            "Itemcode": false
+        }, 
+        "ListFile": {
+            "Output": true
+        }
+    },
+    "MaterialColumn": {
+        "Columns": [
+            {
+                "Title": "PT",
+                "SubTitle": "NO",
+                "Fill": "PARTNUM",
+                "Width": 6.0
+            },
+            {
+                "Title": "COMPONENT DESCRIPTION",
+                "SubTitle": "",
+                "Fill": "DESCRIPTION",
+                "Width": 80.0
+            },
+            {
+                "Title": "N.S.",
+                "SubTitle": "(INS)",
+                "Fill": "BORE",
+                "Width": 18.0
+            },
+            {
+                "Title": "ITEM CODE",
+                "SubTitle": "",
+                "Fill": "ITEMCODE",
+                "Width": 28.0
+            },
+            {
+                "Title": "QTY",
+                "SubTitle": "",
+                "Fill": "QUANTITY",
+                "Width": 8.0
+            }
+        ]
+    },
+    "WeldOptions": {
+        "WeldNumber": true,
+        "TextSize": 1.8, 
+        "ShopStyle": 0, 
+        "FieldStyle": 3, 
+        "OffshoreStyle": 2, 
+        "Output": true, 
+        "WeldList": {
+            "X": 460, 
+            "Y": 200, 
+            "Columns": [
+                {
+                "Title": "WELD.",
+                "SubTitle": "NO",
+                "Fill": "WELD-NUM",
+                "Width": 8.0
+                },
+                {
+                "Title": "SHOP/",
+                "SubTitle": "FIELD",
+                "Fill": "WELD-CATE",
+                "Width": 8.0
+                },
+                {
+                "Title": "WELD",
+                "SubTitle": "SIZE",
+                "Fill": "WELD-SIZE",
+                "Width": 8.0
+                },
+                {
+                "Title": "WELD",
+                "SubTitle": "TYPE",
+                "Fill": "WELD-TYPE",
+                "Width": 8.0
+                },
+                {
+                "Title": "WELD",
+                "SubTitle": "LOCATION",
+                "Fill": "WELD-LOCATION",
+                "Width": 8.0
+                }
+            ]
+        }
+    },
+    "CuttingList": {
+        "Output": true, 
+        "PieceList" : {
+            "X": 520, 
+            "Y": 200, 
+            "Columns": [
+                {
+                "Title": "PIECE",
+                "SubTitle": "NO",
+                "Fill": "CUT-PIECE-NUMBER",
+                "Width": 8.0
+                },
+                {
+                "Title": "CUT",
+                "SubTitle": "LENGTH",
+                "Fill": "CUT-PIECE-LENGTH",
+                "Width": 12.0
+                },
+                {
+                "Title": "N.S",
+                "SubTitle": "INS",
+                "Fill": "BORE",
+                "Width": 8.0
+                },
+                {
+                "Title": "REMARKS",
+                "SubTitle": "",
+                "Fill": "CUT-PIECE-REMARKS",
+                "Width": 8.0
+                }
+            ]
+        }
+    }, 
+    "SpoolOptions": {
+        "Output": true, 
+        "SpoolList" : {
+            "X": 520, 
+            "Y": 100, 
+            "Columns": [
+                {
+                "Title": "PIPE SPOOLS",
+                "SubTitle": "",
+                "Fill": "TEXT",
+                "Width": 8.0
+                }
+            ]
+        }
+    }, 
+    "FrameTexts": {
+        "PipeAttributes": [
+            {
+                "Name": "PIPING-NAME",
+                "X": 480,
+                "Y": 16,
+                "Height": 3.0,
+                "Width": 0.7,
+                "Angle": 0
+            },
+            {
+                "Name": "PIPING-SPEC",
+                "X": 105,
+                "Y": 20,
+                "Height": 12.0,
+                "Width": 0.7,
+                "Angle": 0
+            }
+        ],
+        
+        "DrawingAttributes": [
+        ],
+        
+        "UserDefinedTexts": [
+            {
+                "Name": "ISO DWG",
+                "X": 535,
+                "Y": 16,
+                "Height": 5.0,
+                "Angle": 0
+            },
+            {
+                "Name": "A2",
+                "X": 580,
+                "Y": 26,
+                "Height": 3.5,
+                "Angle": 0
+            },
+            {
+                "Name": "SHEET-INDEX",
+                "X": 535,
+                "Y": 8,
+                "Height": 3.5,
+                "Angle": 0
+            },
+            {
+                "Name": "SHEET-SIZE",
+                "X": 550,
+                "Y": 8,
+                "Height": 3.5,
+                "Angle": 0
+            },
+            {
+                "Name": "NORTH-ARROW",
+                "X": 20,
+                "Y": 400,
+                "Height": 3.5,
+                "Angle": 0
+            }
+        ]
+    },
+    "ATexts": {
+        "DrawingArea": [
+            {
+                "Id": 201,
+                "Status": 1,
+                "DefaultText": "E",
+                "UserText": ""
+            },
+            {
+                "Id": 202,
+                "Status": 1,
+                "DefaultText": "N",
+                "UserText": ""
+            }
+        ],
+        "MaterialList": [
+            {
+                "Id": 300,
+                "Status": 1,
+                "DefaultText": "FABRICATION MATERIALS",
+                "UserText": ""
+            },
+            {
+                "Id": 301,
+                "Status": 1,
+                "DefaultText": "PT",
+                "UserText": ""
+            },
+            {
+                "Id": 302,
+                "Status": 1,
+                "DefaultText": "NO",
+                "UserText": ""
+            },
+            {
+                "Id": 303,
+                "Status": 1,
+                "DefaultText": "COMPONENT DESCRIPTION",
+                "UserText": ""
+            },
+            {
+                "Id": 304,
+                "Status": 1,
+                "DefaultText": "N.S.",
+                "UserText": ""
+            },
+            {
+                "Id": 305,
+                "Status": 1,
+                "DefaultText": "ITEM CODE",
+                "UserText": ""
+            },
+            {
+                "Id": 306,
+                "Status": 1,
+                "DefaultText": "QTY",
+                "UserText": ""
+            },
+            {
+                "Id": 307,
+                "Status": 1,
+                "DefaultText": "PIPE",
+                "UserText": ""
+            },
+            {
+                "Id": 308,
+                "Status": 1,
+                "DefaultText": "FITTINGS",
+                "UserText": ""
+            },
+            {
+                "Id": 309,
+                "Status": 1,
+                "DefaultText": "FLANGES",
+                "UserText": ""
+            },
+            {
+                "Id": 310,
+                "Status": 1,
+                "DefaultText": "ERECTION MATERIALS",
+                "UserText": ""
+            },
+            {
+                "Id": 311,
+                "Status": 1,
+                "DefaultText": "GASKETS",
+                "UserText": ""
+            },
+            {
+                "Id": 312,
+                "Status": 1,
+                "DefaultText": "BOLTS",
+                "UserText": ""
+            },
+            {
+                "Id": 313,
+                "Status": 1,
+                "DefaultText": "VALVES / IN-LINE ITEMS",
+                "UserText": ""
+            },
+            {
+                "Id": 314,
+                "Status": 1,
+                "DefaultText": "INSTRUMENTS",
+                "UserText": ""
+            },
+            {
+                "Id": 315,
+                "Status": 1,
+                "DefaultText": "SUPPORTS",
+                "UserText": ""
+            },
+            {
+                "Id": 316,
+                "Status": 1,
+                "DefaultText": "PIPE SPOOLS",
+                "UserText": ""
+            },
+            {
+                "Id": 339,
+                "Status": 1,
+                "DefaultText": "MISCELLANEOUS COMPONENTS",
+                "UserText": ""
+            },
+            {
+                "Id": 371,
+                "Status": 1,
+                "DefaultText": "OFFSHORE MATERIALS",
+                "UserText": ""
+            }
+        ]
+    }
+}
